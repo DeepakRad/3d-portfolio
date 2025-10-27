@@ -1,28 +1,24 @@
 import {
-  mobile,
   backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
+  carrent,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  tripguide,
+  typescript,
+  web,
+  yara,
 } from "../assets";
 
 export const navLinks = [
@@ -52,10 +48,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,55 +108,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
+    title: "Full-stack developer & AWS support",
     company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    icon: yara,
+    iconBg: "#E6DEDD",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Key contributor to the migration of a critical backend service to a new microservice architecture, with seven microservices on AWS EKS, coordinating dependencies across five teams and achieving zero-downtime release.",
+      "Optimized OpenSearch queries by using hybrid indexing strategies between ngram and edge_gram, cutting average search latency by 20% and improving query throughput to handle 2× traffic.",
+      "Engineered full-stack caching (Redis + React GraphQL) that improved response times by 60% and drove measurable reductions in user drop-offs and latency-related churn.",
+      "Implemented CI/CD workflows to automatically pull and push localized translations from Lokalise across multiple micro-frontend applications, each distinguished by namespace.",
+      "Led production releases to INT and PROD environments and instituted observability dashboards using Datadog to monitor success metrics in real time.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full-stack Developer",
+    company_name: "Yara international",
+    icon: yara,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2022 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Contributed to the development of a micro-frontend mobile app architecture using React Native, identified issues in the open-source Re.Pack library, and contributed to fixes that improved its stability and usability.",
+      "Developed scalable microservices with NestJS, PostgreSQL,GraphQL and improved API reliability significantly.",
+      "Integrated analytics & privacy platforms (OneTrust, Segment, CleverTap) successfully, which are operational and used in applications till today",
+      "Acted as a dependency librarian, streamlining package management across interdependent projects with Renovate to maintain stability and reduce integration issues.",
+      "Redesigned CI/CD pipelines by implementing shared workflows and re-using them across various applications and micro-services, making the codebase cleaned and more understandable.",
+      "Developed and maintained comprehensive automated test suites using Jest, React Testing Library, and end-to-end testing frameworks across frontend and backend, ensuring high stability, early bug detection, and production-grade reliability.",
+    ],
+  },
+  {
+    title: "Front-end Developer",
+    company_name: "Yara international",
+    icon: yara,
+    iconBg: "#E6DEDD",
+    date: "August 2021 - August 2022",
+    points: [
+      "Built high-performance UI modules for mobile apps in React Native.",
+      "Built an A/B testing framework with Clevertap that optimized feature rollout decisions, increasing user engagement and feature adoption by 20%.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Strengthened core expertise in JavaScript, TypeScript, React, React Native, AWS, and modern CI/CD practices.",
     ],
   },
 ];
@@ -262,4 +244,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
